@@ -4,6 +4,9 @@
 | :-----------------------: | :---------------------: |
 | [![voila-binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/voila/HEAD?urlpath=voila%2Frender%2Findex.ipynb)| [![jupyterlab-binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/voila/HEAD?urlpath=lab%2Ftree%2Findex.ipynb) |
 
+### Button to this directory
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dylanjones96/voila-binder/main?urlpath=voila%2Frender%2Findex.ipynb)
+
 This example demonstrates how to use [Voilà](https://github.com/voila-dashboards/voila) on Binder.
 
 ![screenshot](https://user-images.githubusercontent.com/591645/132238479-9af8dff6-ea12-465f-bb7c-2570defcdd26.png)
