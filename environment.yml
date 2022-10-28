@@ -5,6 +5,7 @@ dependencies:
 - matplotlib-base
 - numpy
 - pandas
+- pytables
 - ipywidgets
 - jupyterlab>=3.1
 - voila>=0.2.11
