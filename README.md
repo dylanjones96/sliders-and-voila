@@ -9,10 +9,10 @@
 
 
 ## Build a conda environment and launch jupyter-lab
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dylanjones96/Voila-tests/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dylanjones96/sliders-and-voila/HEAD)
 
 ## Render sliders-voila10.ipynb notebook outputs in a browser window using Voilà package
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dylanjones96/Voila-tests/main?urlpath=voila%2Frender%2Findex_test8.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dylanjones96/sliders-and-voila/main?urlpath=voila%2Frender%2Fsliders-voila10.ipynb)
 
 ## Some instructions lifted from host repository README
 
