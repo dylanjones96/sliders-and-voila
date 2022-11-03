@@ -1,12 +1,13 @@
-# Using Voilà to render interactive slider plots
+# Using Voilà to render interactive slider plots 
 
-This repository was copied from https://github.com/binder-examples/voila. The test_number_.ipynb scripts were edited using the index.ipynb as a template. 
+## Notes on implementation
+This repository was copied from https://github.com/binder-examples/voila. The index.ipynb notebook was used as a template. 
 
 
-## This button will build a conda environment and launch jupyter-lab
+## Build a conda environment and launch jupyter-lab
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dylanjones96/Voila-tests/HEAD)
 
-## This button will render the test8.ipynb notebook's outputs in a browser window using Voilà
+## Render sliders-voila10.ipynb notebook outputs in a browser window using Voilà package
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dylanjones96/Voila-tests/main?urlpath=voila%2Frender%2Findex_test8.ipynb)
 
 ## Some instructions lifted from host repository README
