@@ -1,4 +1,4 @@
-# Interactive dashboard from notebook with Voilà
+# Using Voilà to render interactive slider plots
 
 | Voilà | JupyterLab |
 | :-----------------------: | :---------------------: |
