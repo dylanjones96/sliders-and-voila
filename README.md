@@ -1,7 +1,11 @@
 # Using Voilà to render interactive slider plots 
 
 ## Notes on implementation
-This repository was copied from https://github.com/binder-examples/voila. The index.ipynb notebook was used as a template. 
+- This repository was copied from https://github.com/binder-examples/voila. The index.ipynb notebook was used as a template. 
+- Currently, every time a slider value is changed the instance of the figure window is cleared, a new figure is created, then the new bands are drawn. It would probaly be more efficient to link the update function to the lines belonging to the figure object, but I couldn't get that to work (although honestly I didn't try that hard). 
+- Also, Matplotlib is used to draw the figures. The main drawback here is that Matplotlib figures are not types of ipython widgets. I _think_ this can make their integration with other ipython widgets tricky, especially when it comes to scaling/resizing. There exist potential alternatives that seem to have higher resolution and look 'cleaner'. These are
+   - bqplot
+   - ipympl (using %matplotlib widget magic command to turn matplotib figure into interactive one). 
 
 
 ## Build a conda environment and launch jupyter-lab
