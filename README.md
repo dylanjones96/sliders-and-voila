@@ -4,7 +4,7 @@
 - This repository was copied from https://github.com/binder-examples/voila. Changes have been made. The index.ipynb notebook was used as a template. 
 - Currently, every time a slider value is changed the instance of the figure window is cleared, a new figure is created, then the new bands are drawn. It would probaly be more efficient to link the update function to the lines belonging to the figure object, but I couldn't get that to work (although honestly I didn't try that hard). 
 - Also, Matplotlib is used to draw the figures. The main drawback here is that Matplotlib figures are not types of ipython widgets. Instead, the matplotlib figure object is embedded within a widgets Box. I _think_ this can make integration with other ipython widgets tricky, especially when it comes to scaling/resizing. There exist potential alternatives that seem to have higher resolution and look 'cleaner'. These are
-   - bqplot: The figure objects in this library are themselves widgets and would be the optimal choice, but it seems (to me at least) that one can't write maths symbols or provide a list of custom tick labels to axes locations. 
+   - bqplot: the figure objects in this library are themselves widgets and would be the optimal choice, but it seems (to me at least) that one can't write maths symbols or provide a list of custom tick labels to axes locations. 
    - ipympl: using %matplotlib widget magic command to turn matplotib figure into interactive one works, but when the figure object is redrawn in the current implementation the effect is quite jarring. 
 
 
