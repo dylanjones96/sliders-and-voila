@@ -18,7 +18,7 @@
 
 If you would like to use the same configuration as this repository but for another project, check out the following steps:
 
-1. Make sure the repository is publicly available (on GitHub, Gitlab or as a [GitHub Gist](https://gist.github.com)
+1. Make sure the repository is publicly available (on GitHub, Gitlab or as a [GitHub Gist](https://gist.github.com)). 
 2. Define the dependencies in [`environment.yml`](./environment.yml). `requirements.txt` is also supported. In the dependency file, add `voila`.
 3. Go to [mybinder.org](https://mybinder.org) and enter the URL of the repository.
 4. In `Path to a notebook file`, select `URL` and use the Voilà endpoint: `voila/render/path/to/notebook.ipynb`
