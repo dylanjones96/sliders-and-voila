@@ -1,17 +1,15 @@
 # Using Voilà to render interactive slider plots
 
-| Voilà | JupyterLab |
-| :-----------------------: | :---------------------: |
-| [![voila-binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/voila/HEAD?urlpath=voila%2Frender%2Findex.ipynb)| [![jupyterlab-binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/voila/HEAD?urlpath=lab%2Ftree%2Findex.ipynb) |
+This repository was copied from https://github.com/binder-examples/voila. The test_number_.ipynb scripts were edited using the index.ipynb as a template. 
 
-### Button to this directory
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dylanjones96/voila-binder/main?urlpath=voila%2Frender%2Findex.ipynb)
 
-This example demonstrates how to use [Voilà](https://github.com/voila-dashboards/voila) on Binder.
+## This button will build a conda environment and launch jupyter-lab
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dylanjones96/Voila-tests/HEAD)
 
-![screenshot](https://user-images.githubusercontent.com/591645/132238479-9af8dff6-ea12-465f-bb7c-2570defcdd26.png)
+## This button will render the test8.ipynb notebook's outputs in a browser window using Voilà
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dylanjones96/Voila-tests/main?urlpath=voila%2Frender%2Findex_test8.ipynb)
 
-## Configuration
+## Some instructions lifted from host repository README
 
 If you would like to use the same configuration as this repository but for another project, check out the following steps:
 
@@ -29,11 +27,3 @@ Here is an overview of the Binder configuration on [mybinder.org](https://mybind
 ![image](https://user-images.githubusercontent.com/591645/132292481-01f877c3-77f8-46ba-b265-23bd3e25f513.png)
 
 For more details, check out the Voilà documentation on https://voila.readthedocs.io/en/latest/deploy.html#deployment-on-binder
-
-## JupyterLab Preview Extension for Voilà
-
-The JupyterLab Preview Extension for Voilà should normally be automatically available, since Binder now defaults to JupyterLab 3.0.
-
-For consistency, you can add `jupyterlab=3` as a dependency in `environment.yml`.
-
-![lab-preview](https://user-images.githubusercontent.com/591645/132293167-88c22f5a-e9a7-4e26-badb-09e094d2191e.png)
