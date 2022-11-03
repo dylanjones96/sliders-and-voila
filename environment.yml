@@ -2,10 +2,10 @@ name: voila-gallery-country-indicators
 channels:
 - conda-forge
 dependencies:
-- bqplot
+# - bqplot
 - matplotlib-base
 - numpy
-- pandas
+# - pandas
 - pytables
 - ipywidgets
 - jupyterlab
